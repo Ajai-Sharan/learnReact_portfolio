@@ -5,6 +5,7 @@ import Experience from './Experience';
 import Education from './Education';
 import Portfolio from './Portfolio';
 import Contacts from './Contacts';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,13 +19,13 @@ function App() {
     <p id="developer">
         A PASSONATE SOFTWARE DEVELOPER
     </p>
-
     <About />
     <Skills />
     <Experience />
     <Education />
     <Portfolio />
     <Contacts />
+    <Footer />
   </div>
 
   
