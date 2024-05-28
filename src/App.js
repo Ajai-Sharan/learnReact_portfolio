@@ -6,19 +6,12 @@ import Education from './Education';
 import Portfolio from './Portfolio';
 import Contacts from './Contacts';
 import Footer from './Footer';
+import Home from './Home';
 
 function App() {
   return (
-    <div class="home">
-    <p id="title">
-        Hello, I am 
-    </p>
-    <p id="name">
-        Ajai Sharan Velmurugan
-    </p>
-    <p id="developer">
-        A PASSONATE SOFTWARE DEVELOPER
-    </p>
+    <div class="body">
+    <Home />
     <About />
     <Skills />
     <Experience />
@@ -26,9 +19,7 @@ function App() {
     <Portfolio />
     <Contacts />
     <Footer />
-  </div>
-
-  
+  </div> 
   );
   
   
